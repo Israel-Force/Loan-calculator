@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: #fbb13c
+}
+
+body { 
+	display: block; 
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./loan1.jpg);
+	background-size: cover;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 2rem;
+	font-family: sans-serif;
+}
+div{
+	border:5px solid #fff;
+	width:40vw;
+	height: 40vh;
+	margin:5vh auto;
+	/*box-shadow: 2px 2px 4px #fbb13c;*/
+
+}
+p{
+	padding: 2rem;
+}
+ @media only screen and (min-width: 309px ) {
+    div { height:100vh;
+    	padding:0;
+    }
+input{
+	color: black;
+}
+h3{
+	border-bottom:5px solid #fff;
+	text-align: right;
+	padding: 10px;
+}
+input{
+	height: 2rem;
+	width: 10em;
+}
