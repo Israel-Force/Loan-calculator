@@ -14,25 +14,27 @@ body {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	font-size: 2rem;
+	font-size: 1.6rem;
 	font-family: sans-serif;
 }
-div{
+.container{
 	border:5px solid #fff;
-	width:40vw;
-	height: 40vh;
-	margin:5vh auto;
+	width:90%;
+	max-width: 500px;
+	height: 90%;
+	text-align: right;
+	margin:4em auto;
 	/*box-shadow: 2px 2px 4px #fbb13c;*/
 
 }
 p{
+	text-align: left;
 	padding: 2rem;
+	text-transform: uppercase;
 }
- @media only screen and (min-width: 309px ) {
-    div { height:100vh;
-    	padding:0;
-    }
+
 input{
+	font-size: 1.6rem;
 	color: black;
 }
 h3{
@@ -40,7 +42,27 @@ h3{
 	text-align: right;
 	padding: 10px;
 }
-input{
-	height: 2rem;
-	width: 10em;
+
+/*@media (min-width: 220px) {
+	p {
+		font-size: 1rem;
+	}
+	input{
+		font-size: 1rem;
+	}
+	.container {
+		width:75%;
+	}
+}*/
+
+@media (max-width: 670px) {
+	p {
+		font-size: 1rem;
+	}
+	input{
+		font-size: 1rem;
+	}
+	.container {
+		width:80%;
+	}
 }
